@@ -7,10 +7,10 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class CRUDApplication {
+public class PersonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CRUDApplication.class, args);
+		SpringApplication.run(PersonApplication.class, args);
 	}
 
 	@Bean
